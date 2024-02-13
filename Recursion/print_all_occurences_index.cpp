@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int>find(int *arr, int size, int target, int i){
 
-    vector<int>ans;
+    vector<int>ans;         //vector ans har baar create hoga..
     //base case
     if(i >= size){
         return ans;
