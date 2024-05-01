@@ -9,10 +9,7 @@ int find_duplicate_no(int arr[],int n){
             return abs(arr[i]);                     // index = abs(arr[i]);
             
         }
-
         arr[abs(arr[i])] = arr[abs(arr[i])] * -1 ;
-
-
     }
     return -1 ;
 }
